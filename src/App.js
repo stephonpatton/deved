@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Tweet from './components/Tweet';
 import CreateTweet from "./components/CreateTweet";
+import TweetList from "./components/TweetList";
 import React, {useState} from "react";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
           <button onClick={() => sayHelloHandler("Stephon")}>
               CLICK THIS
           </button>
+          <TweetList name={name} tweets={tweets} setTweets={setTweets}/>
       </header>
 
     </div>
