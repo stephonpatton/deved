@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Tweet from './components/Tweet';
 import CreateTweet from "./components/CreateTweet";
